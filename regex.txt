@@ -1,0 +1,24 @@
+# Mettre dans cette partie les expressions régulières que vous utilisez
+
+import re
+
+# Mettre vos regex ici...
+
+# corsi 1 cilco
+#(?:[A-Z]{3}-\d{4} \n){2,}\n(?:.+\n){2,}
+
+# corsi 2 e 3 ciclo
+#(?:(?:[A-Z]{3}-\d{4} \n)+\n(?:[A-Z]\w? \n)+\n)+(?:.+\n){2,}
+
+#Sigla
+#----- ^([A-Z]{3}-\d{4}) $ ----
+
+#Section
+# ---- ^([A-Z]\w?) $ -----
+
+#Crediti
+#---- ^(\d) ?$ ----
+
+# descrizione dopo di aver spezzato
+#---- ^(.{10,})$ ----
+
